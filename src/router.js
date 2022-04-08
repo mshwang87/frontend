@@ -14,7 +14,7 @@ import ReservationManager from "./components/ReservationManager"
 import MessageManager from "./components/MessageManager"
 
 
-import Roomview from "./components/Roomview"
+import Carview from "./components/Carview"
 export default new Router({
     // mode: 'history',
     base: process.env.BASE_URL,
@@ -45,9 +45,9 @@ export default new Router({
 
 
             {
-                path: '/roomviews',
-                name: 'Roomview',
-                component: Roomview
+                path: '/carviews',
+                name: 'Carview',
+                component: Carview
             },
 
 
